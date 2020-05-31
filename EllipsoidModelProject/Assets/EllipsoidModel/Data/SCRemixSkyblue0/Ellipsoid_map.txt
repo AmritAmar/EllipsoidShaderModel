@@ -1,0 +1,20 @@
+#Fitted BRDF Map Description
+#Tue Nov 19 11:05:00 EST 2019
+BRDFMapType=EllipsoidMicrofacetMap
+map.width=2748
+map.height=1835
+dataset.width=2748
+dataset.height=1835
+dataset.name=E\:\\bruce\\SCRemixSkyblue0\\hdrdense.15\\GantryStateLog.txt
+ellipsoid.diffuse.albedo=Ellipsoid_map_ellipsoid_diffuse.exr
+ellipsoid.diffuse.fit.method=2ndQuartileAvg
+ellipsoid.shadowingMasking=true
+ellipsoid.gloss.albedo=Ellipsoid_map_ellipsoid_gloss.exr
+ellipsoid.matrixS.diagonals=Ellipsoid_map_ellipsoid_SDiagonals.exr
+ellipsoid.matrixS.offDiagonals=Ellipsoid_map_ellipsoid_SOffDiagonals.exr
+ellipsoid.fit.maxIRLSIterations=25
+ellipsoid.fit.convergenceThreshold=0.002
+ellipsoid.fit.useBRDFLoss=false
+ellipsoid.fit.tryOptimisticWeights=true
+ellipsoid.fit.limitExtrapolation=true
+fit.rmsErrorImage=Ellipsoid_map_rmsError.exr
